@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?&display=swap" rel="stylesheet">
+    <title>макет учебного сайта</title>
+    <link rel="stylesheet" href="stil.css"> 
+    <script async src="popup.js"></script>
+</head>
+<body class="page">
+ <header class="navigation">
+    <img src="img/logo.png" class="kub" alt="изображение">
+    <div class="menu">
+    <a class="let" href="index.html">Главная</a>
+    <a class="let" href="students.html">Студенты</a>
+    <a class="let" href="kurs.html">О курсе</a>
+    <a class="let" href="kontakt.html">Контакты</a>
+    </div>
+    <button class="open-btn">Войти</button>
+    <div class="popup">
+        <img class="ikonka" src="img/icons8-закрыть-окно-48.png" alt="изображение">
+        <h2 class="login-1">Войти на сайт</h2>
+        <form class="login-2">
+            <input class="login-3" name="login" type="text" placeholder="Логин" required>
+            <input class="login-4" name="password" type="text" placeholder="Пароль" required>
+            <button class="close-btn" type="submit">Войти</button>
+        </form>
+    </div>
+</header>  
+<div class="main">
+<h1>О курсе 📱</h1>
+<h2 class="text61">Посмотрите видео о нас</h2>
+<div class="iframe">
+    <iframe class="video-kurs"  src="img/video.mp4" allowfullscreen></iframe>
+</div>
+</div>
+<footer class="footer">
+    <p class="text2">2022 &copy; <a class="text3">учебный центр</a>
+    </p>
+</footer>
+</body>
+</html>
